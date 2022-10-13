@@ -1,0 +1,151 @@
+<mxfile host="65bd71144e">
+    <diagram id="v0ubRjj1cKadbay8pMUb" name="Página-1">
+        <mxGraphModel dx="948" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="21" value="RECEITA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="260" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Em uma clinica médica ao longo do tempo, um médico pode atender a vários clinetes e um cliente é consultado por pelo menos um médico.&lt;br&gt;sempre que um médico atende a um cliente, ele fornece uma receita que especifica pelo menos um medicamento, previamente cadastrado pela clinica, com a dosagem adequada.&lt;br&gt;Cada médico possui código e&amp;nbsp; nome. Cada cliente tem código, nome e endereço.&lt;br&gt;Um cliente não pode ser atendido pelo médico mais de uma vez na mesma data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="810" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Em uma clinica médica ao longo do tempo, um médico pode atender a vários clinetes e um cliente é consultado por pelo menos um médico." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="9" y="110" width="810" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Cada médico possui código e&amp;nbsp; nome. Cada cliente tem código, nome e endereço.&lt;br&gt;Um cliente não pode ser atendido pelo médico mais de uma vez na mesma data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="9" y="465" width="810" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="(1,1)" style="edgeStyle=none;html=1;fontColor=#000000;strokeColor=#000000;endArrow=none;endFill=0;labelBackgroundColor=none;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="MEDICO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="(0,N)" style="edgeStyle=none;html=1;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ATENDE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="CLIENTES" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="sempre que um médico atende a um cliente, ele fornece uma receita que especifica pelo menos um medicamento, previamente cadastrado pela clinica, com a dosagem adequada." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="19" y="210" width="800" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="(1,1)" style="edgeStyle=none;html=1;fontColor=#000000;strokeColor=#000000;endArrow=none;endFill=0;labelBackgroundColor=none;" edge="1" source="16" target="18" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="MEDICO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="(0,N)" style="edgeStyle=none;html=1;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;labelBackgroundColor=none;" edge="1" source="18" target="19" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="ATENDE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="CLIENTES" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="(1,N)" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="MEDICAMENTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="(0,N)" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="22" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="PRESCREVE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="380" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="RECEITA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="308" y="525" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="(1,N)" style="edgeStyle=none;html=1;fontColor=#000000;strokeColor=#000000;endArrow=none;endFill=0;labelBackgroundColor=none;" edge="1" source="27" target="29" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="MEDICO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="68" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="(0,N)" style="edgeStyle=none;html=1;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;labelBackgroundColor=none;" edge="1" source="29" target="30" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="ATENDE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="323" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="CLIENTES" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="648" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="(1,N)" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" source="32" target="34" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="MEDICAMENTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="498" y="645" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="(0,N)" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" source="34" target="25" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="PRESCREVE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="338" y="645" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="35" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;CODIGO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="108" y="605" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="37" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;NOME" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="630" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0.85;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="40" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;CODIGO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="738" y="605" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="41" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;NOME" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="630" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="42" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;ENDERECO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="700.5" y="650" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="46" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;DATA" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="615" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="48" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;CODIGO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="690" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="49" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;NOME" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="632" y="715" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="53" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;NOME" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="680" width="15" height="15" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
